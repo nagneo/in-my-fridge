@@ -1,5 +1,16 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
 /* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root [data-theme="wintry"] {
+  --theme-font-family-base: "Pretendard", sans-serif;
+  --theme-font-family-heading: "Pretendard", sans-serif;
+
+  --menu-z-index: 100;
+  --menu-bar-height: 56px;
+  --menu-background-color: red;
+}

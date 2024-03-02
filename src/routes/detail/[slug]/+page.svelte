@@ -1,1 +1,0 @@
-<h1>Slug Certain Fridge</h1>
